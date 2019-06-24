@@ -55,6 +55,7 @@
             this.btmModal.TabIndex = 1;
             this.btmModal.Text = "모달창 띄우기";
             this.btmModal.UseVisualStyleBackColor = true;
+            this.btmModal.Click += new System.EventHandler(this.BtmModal_Click);
             // 
             // btnModaless
             // 
@@ -65,6 +66,7 @@
             this.btnModaless.TabIndex = 4;
             this.btnModaless.Text = "모달리스창 띄우기";
             this.btnModaless.UseVisualStyleBackColor = true;
+            this.btnModaless.Click += new System.EventHandler(this.BtnModaless_Click);
             // 
             // menuStrip1
             // 
@@ -91,6 +93,7 @@
             this.끝내기ToolStripMenuItem.Name = "끝내기ToolStripMenuItem";
             this.끝내기ToolStripMenuItem.Size = new System.Drawing.Size(110, 22);
             this.끝내기ToolStripMenuItem.Text = "끝내기";
+            this.끝내기ToolStripMenuItem.Click += new System.EventHandler(this.끝내기ToolStripMenuItem_Click);
             // 
             // 창띄우기ToolStripMenuItem
             // 
@@ -106,6 +109,7 @@
             this.modelToolStripMenuItem.Name = "modelToolStripMenuItem";
             this.modelToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.modelToolStripMenuItem.Text = "model";
+            this.modelToolStripMenuItem.Click += new System.EventHandler(this.ModelToolStripMenuItem_Click);
             // 
             // modalessToolStripMenuItem
             // 
@@ -127,12 +131,14 @@
             this.이프로그램은ModalToolStripMenuItem.Name = "이프로그램은ModalToolStripMenuItem";
             this.이프로그램은ModalToolStripMenuItem.Size = new System.Drawing.Size(214, 22);
             this.이프로그램은ModalToolStripMenuItem.Text = "이 프로그램은..(Modal)";
+            this.이프로그램은ModalToolStripMenuItem.Click += new System.EventHandler(this.이프로그램은ModalToolStripMenuItem_Click);
             // 
             // 이프로그램은ModalessToolStripMenuItem
             // 
             this.이프로그램은ModalessToolStripMenuItem.Name = "이프로그램은ModalessToolStripMenuItem";
             this.이프로그램은ModalessToolStripMenuItem.Size = new System.Drawing.Size(214, 22);
             this.이프로그램은ModalessToolStripMenuItem.Text = "이 프로그램은..(Modaless)";
+            this.이프로그램은ModalessToolStripMenuItem.Click += new System.EventHandler(this.이프로그램은ModalessToolStripMenuItem_Click);
             // 
             // statusStrip1
             // 
